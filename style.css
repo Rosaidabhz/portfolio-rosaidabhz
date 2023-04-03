@@ -221,8 +221,8 @@ img{
 
 
 
-/* Ventana Modal */
-.modal{
+/* Ventana modales */
+.modales{
     position: fixed;
     z-index: 999;
 
@@ -242,15 +242,15 @@ img{
 
     background-color: var(--black-alpha-color);
 }
-.modal-content{
+.modales-content{
     position: relative;
  }
- .modal-close{
+ .modales-close{
      position: absolute;
      top: 1rem;
      right: 1rem;
  }
- .modal-close > svg{
+ .modales-close > svg{
      width: 3rem;
      height: 3rem;
      fill: var(--first-alpha-color);
@@ -258,13 +258,13 @@ img{
 
 /* Se va activar cuando el target de la pagina este así */
 
-/* Aquí aplicamos un selector avanzado. Va a buscar todos los elementos que contengan la clase modal y que suatributo ID comiencen con la palabra "Proyecto". Entonces me ahorro de andar escribiendo más codigo CSS para cada una de los enlaces. */
+/* Aquí aplicamos un selector avanzado. Va a buscar todos los elementos que contengan la clase modales y que suatributo ID comiencen con la palabra "Proyecto". Entonces me ahorro de andar escribiendo más codigo CSS para cada una de los enlaces. */
 
-.modal[id|="proyecto"]:target{
+.modales[id|="proyecto"]:target{
     opacity: 1;
     pointer-events: auto;
 }
-.modal#gracias:target{
+.modales#gracias:target{
     opacity: 1;
     pointer-events: auto;
 }
@@ -337,8 +337,8 @@ img{
     background: linear-gradient(to bottom ,var(--first-alpha-color) , #333);
 }
 
-/* Modal formulario */
-.modal-content__form{
+/* modales formulario */
+.modales-content__form{
     padding: 1rem;
     width: 250px;
 
@@ -346,14 +346,14 @@ img{
     color: var(--white-color);
     background-color: #2a2541;
 }
-.modal-content__form > svg{
+.modales-content__form > svg{
     width: 3rem;
     height: 3rem;
     margin-top: 1rem;
 
     fill: var(--first-color);
 }
-.modal#gracias:target{
+.modales#gracias:target{
     opacity: 1;
     pointer-events: auto;
 }
@@ -990,8 +990,8 @@ img{
     opacity: 1;
     pointer-events: auto;   
 }
-/* Ventanas modales */
-.project__modal{
+/* Ventanas modaleses */
+.project__modales{
     padding: 1rem;
     max-width: 400px;
     display: flex;
@@ -1000,7 +1000,7 @@ img{
     background-color: #0b111e;
     
 }
-.project__modal h4{
+.project__modales h4{
     border-bottom: medium solid var(--first-color);
     padding: .5rem 0;
     margin: 1rem auto;
@@ -1015,7 +1015,9 @@ img{
 .project__detalles b {
     color: var(--first-color);
 }
- 
+.text-detalles{
+    color: #fcb4b4;
+}
 
 /* Proximos proyectos  */
 .projects__container--proximos{
@@ -1077,15 +1079,15 @@ img{
         grid-template-rows: repeat(2 , 45%);
     }
 
-    /* Ventana modal */
-    .project__modal{
+    /* Ventana modales */
+    .project__modales{
         max-width: 1024px;
         flex-direction: row;
     }
-    .project__modal--info{
+    .project__modales--info{
         margin: 1rem;
     }
-    .project__modal img {
+    .project__modales img {
         width: 50%;
         object-fit:contain;
     }

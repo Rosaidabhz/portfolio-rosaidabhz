@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Se le coloca $ para que sepamos que es un elemnto dentro del DOM.
     const $form = d.querySelector(".contact__form"),
     $loader = d.querySelector(".contact-form__loader"),
-    $response = d.querySelector(".modal-content__form");
+    $response = d.querySelector(".modales-content__form");
 
     $form.addEventListener("submit" , (e) =>{
         e.preventDefault();
