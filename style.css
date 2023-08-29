@@ -1,8 +1,8 @@
 
 /* PROPIEDADES PERSONALIZADAS */
 :root{
-    --first-color: #fa9cc6;
-    --first-alpha-color: rgba(255, 140, 192, 0.75); 
+    --first-color:rgb(38, 166, 154);
+    --first-alpha-color: rgb(255, 172, 227); 
     --body-color: #0b111e;
 
     --second-color: rgba(20, 25, 45, 1);
@@ -11,21 +11,21 @@
     --third-color:rgba(80, 20, 100, 1);
     --third-alpha-color:rgba(80, 20, 100, 0.75);
 
-    --black-color: rgb(255, 255, 255);
+    --black-color: rgb(235, 235, 235);
     --gray-color: rgba(204, 204, 204, 1);
     --gray-dark-color: rgb(255, 255, 255);
     --gray-light-color: rgba(243, 243, 243, 1);
     --white-color: rgba(255, 255, 255, 1);
 
-    --purple-color: #fa9cc6;
-    --purple-light-color: #fa9cc6;
+    --purple-color: rgb(255, 167, 215); 
+    --purple-light-color: rgb(255, 168, 222); 
 
     --link-color: rgba(80, 158, 227, 1);
     --text-color: rgb(245, 244, 244);
     /* --title-color: rgba(51, 51, 51, 1); */
     
     --white-alpha-color: rgba(255, 255, 255, 0.5);
-    --black-alpha-color: rgba(0, 0, 0, 0.5);
+    --black-alpha-color: rgba(0, 0, 0, 0.733);
 
     --card-color:rgb(34, 40, 49);
     --card-purple-color: rgb(119, 119, 119);
@@ -94,7 +94,7 @@ h6 {
 p{
     line-height: 1.6rem;
     letter-spacing: 0.3px;  
-    color: white;
+    color: rgb(216, 216, 216);
 } 
 i{
     color: white;
@@ -701,7 +701,7 @@ img{
     font-weight: bold;
 }
 .about__subtitle{
-    color: var(--first-color);
+    color: var(--purple-light-color);
 }
 .about__article--img{
     
@@ -713,7 +713,7 @@ img{
     border-radius: 10%;
     transform: translatex(0px);
     animation: float 6s ease-in-out infinite;
-    background-color: var(--first-alpha-color);
+    background-color: rgba(255, 255, 255, 0.384);
 }
 .about__article--img > img {
     display: block;
@@ -810,7 +810,7 @@ img{
     margin-bottom: 1rem;  
 }
 .skill__item > h5{
-    color: var(--purple-light-color);
+    color: rgb(38, 166, 154);
 }
 .skill__item:hover{
     
@@ -829,7 +829,7 @@ img{
 
     max-width: 500px;
     overflow: hidden;
-    box-shadow: 5px 5px 10px var(--purple-color);
+    box-shadow: 5px 5px 10px  rgb(255, 255, 255);
     border-radius: 10px;
 
    justify-self: center;
@@ -870,7 +870,7 @@ img{
 }
 .hard__skill--content > h5{
     position: absolute;
-    color: var(--purple-light-color);
+    color: rgb(38, 166, 154);
     
 }
 .hard__skill--content > p{
@@ -880,7 +880,7 @@ img{
     line-height: 1.2;
 }
 .hard__skill--content i {
-    color: var(--purple-light-color);
+    color:  rgb(38, 166, 154);
 }
 .skill__icons{
     width: 30px;
@@ -922,7 +922,9 @@ img{
 
 
 
-
+.page-footer {
+    background-color: rgb(38, 166, 154) !important;
+}
 
 
 
@@ -956,7 +958,7 @@ img{
     display: block;
 
     border-radius: 8px;
-    box-shadow: 5px 5px 5px 1px var(--first-alpha-color);
+    box-shadow: 5px 5px 5px 1px rgba(255, 255, 255, 0.548);
 }
 .projects__card img{
     width: 100%;
