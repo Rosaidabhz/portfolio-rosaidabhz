@@ -95,6 +95,7 @@ p{
     line-height: 1.6rem;
     letter-spacing: 0.3px;  
     color: rgb(216, 216, 216);
+
 } 
 i{
     color: white;
@@ -426,7 +427,8 @@ img{
     max-width: 1200px;
 }
 .section-pd{
-    padding: 0rem;
+    padding: 1rem;
+
 }
 .txt-center{
     text-align: center;
@@ -706,7 +708,7 @@ img{
 .about__article--img{
     
     width: 200px;
-    margin-bottom: 2rem;
+    margin: 1rem;
     margin-left: auto;
     margin-right: auto;
 
@@ -715,6 +717,8 @@ img{
     animation: float 6s ease-in-out infinite;
     background-color: rgba(255, 255, 255, 0.384);
 }
+
+
 .about__article--img > img {
     display: block;
     border-radius: 10%;
@@ -725,7 +729,7 @@ img{
 .about__article--rotate > img{
     transform: rotate(-10deg);
 }
-.about__article--img img:hover{
+.about__article--img,  img:hover{
     transform: rotate(0deg);
 }
 @media screen and (min-width:768px){
@@ -738,11 +742,13 @@ img{
         align-self: flex-start;
         flex-basis: 60%;
     }
-    .about__article--img{
+    .about__article--img, .about__article--imgg {
         width: 30%;
         animation: none;
         margin: 1rem ;
+
     }
+
 }
 @media screen and (min-width:1024px){
     .section__about{
@@ -793,6 +799,31 @@ img{
     align-items: center; */
     grid-gap: 1rem;
 }
+/* Estilos para pantallas grandes */
+.img__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1rem; /* Espacio entre las imágenes */
+    align-items: center;
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media (max-width: 992px) {
+    .img__container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+
+  }
+  
+  /* Estilos para pantallas pequeñas (teléfonos) */
+  @media (max-width: 768px) {
+    .img__container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+    }
+  }
 
 .skill__item{
     padding: 1rem;
@@ -804,6 +835,18 @@ img{
     text-align: center;
 
     background-color: var(--second-color);
+}
+.img__item > img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    transform: rotate(4deg);
+    margin: 1rem;
+    border-radius: 10px; 
+
 }
 .skill__item > i {
     font-size: 1.5rem;
