@@ -39,7 +39,7 @@
 
 /* RESETEOS DEL DOCUMENTO------------------------ */
 body {
-    background: #1a1a1a;
+    background: #000000e3;
     font-family: 'poppins';
   }
   * {
@@ -556,8 +556,8 @@ img{
         height: var(--header-height-desktop);
     }
     .logo{
-        width: 150px;
-        height: 5rem;
+        width: 100px;
+        height: 2rem;
     }
     .logo--img{
         width: 100%;
@@ -1233,29 +1233,31 @@ img{
     font-weight: 400;
   }
 .logo{
-    width: 90px;
-    height: 60px;
+    width: 70px;
+    height: 40px;
     display: flex;
-    top: 0px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
   }
   
   @media only screen and (max-width : 600px) {
 
      .logo{
-        width: 80px;
-        height: 50px;
+        width: 40px;
+        height: 30px;
       }
   }
   @media only screen and (max-width : 500px) {
     .logo{
-      width: 80px;
-      height: 50px;
+      width: 40px;
+      height: 30px;
     }
   }
   @media only screen and (max-width : 370px) {
     .logo{
-      width: 80px;
-      height: 50px;
+      width: 40px;
+      height: 30px;
     }
   }
 
