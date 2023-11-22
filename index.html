@@ -17,7 +17,9 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="shortcut icon" href="assets/logo/logo.svg" type="image/x-icon">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Portfolio | Rosaidabhz</title>
     <!-- <meta name="description" content="Portafolio personal de Rosi Hernandez, Desarrollador Web. Aquí podrás encontrar una recopilación de mis proyectos y servicios, así como mis habilidades y experiencia laboral. Me apasiona el desarrollo web  y me encanta crear soluciones innovadoras para cada nuevo proyecto que se me presenta. En mi sitio web encontrarás toda la información que necesitas saber acerca de mis habilidades, mi proceso de trabajo y los proyectos en los que he trabajado. "> -->
     <meta name="description" content="Portfolio personal de Rosi Hernandez">
@@ -37,13 +39,12 @@
                     <a id="logo-container" href="#inicio" class="brand-logo">
                         <img class="logo" src="assets/logo/logo.svg">
                     </a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <a  data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a class="link white-text " href="#inicio">Inicio</a></li>
-                        <li><a class="link white-text " href="#acerca">Acerca de</a></li>
-                        <li><a class="link white-text " href="#habilidades">Habilidades</a></li>
-                        <li><a class="link white-text " href="#proyectos">Proyectos</a></li>
-                        <li><a class="link white-text " href="#contacto">Contacto</a></li>
+                        <li><a class="link black-text " href="#inicio">Inicio</a></li>
+                        <li><a class="link black-text " href="#acerca">Acerca de</a></li>
+                        <li><a class="link black-text " href="#habilidades">Habilidades</a></li>
+                        <li><a class="link black-text " href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -53,23 +54,18 @@
     <ul id="mobile-demo" class="sidenav sidenav-close grey darken-4" style="width:200px">
         <br>
         <li>
-            <a class="white-text" href="#inicio">
-                <i class="material-icons icono white-text  ">home</i>Inicio
+            <a class="black-text" href="#inicio">
+                <i class="material-icons icono black-text  ">home</i>Inicio
             </a>
         </li>
         <li>
-            <a class="white-text" href="#acerca">
-                <i class="material-icons icono white-text ">layers</i>Acerca de
+            <a class="black-text" href="#acerca">
+                <i class="material-icons icono black-text ">layers</i>Acerca de
             </a>
         </li>
         <li>
-            <a class="white-text" href="#proyectos">
-                <i class="material-icons icono white-text ">layers</i>Proyectos
-            </a>
-        </li>
-        <li>
-            <a class="white-text" href="#contacto">
-                <i class="material-icons icono white-text ">layers</i>Contactos
+            <a class="black-text" href="#contacto">
+                <i class="material-icons icono black-text ">layers</i>Contactos
             </a>
         </li>
     </ul>
@@ -79,6 +75,7 @@
 
     <main>
         <!-- HOME---------------------------------- -->
+
         <section id="inicio" class="section-home">
 
             <div class="home__container home__container--links">
@@ -123,57 +120,93 @@
                 <div class="container-links container-links-side--right">
                     <ul class="social-links__ul social-links--side">
                         <li>
-                            <a class="mail" href="#">rosaidabhz@gmail.com</a>
+                            <a class="mail" >rosaidabhz@gmail.com</a>
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <div class="container-fluid hero">
+            <div class="container-fluid">
+                <div class="hero-inner">
+                    <h3 class="porfolio-title h3-responsive text-center pt-lg-5">Porfolio</h3>
+                    <div class="row">
+                        <div class="col-12 col-lg-4 img-fluid d-flex justify-content-lg-center justify-content-start">
+                            <img src="assets/img/webp/portfolio-img (1).png" alt="Imagen 1"
+                                class="img-fluid img-portfolio">
+                        </div>
 
-
-                <aside class="hero-image__aside--opacity">
-
-
-
-                    <!--   <div class="hero-image__container max-growth "> 
-                         <div class="container__content container__content--bottom ">
-
-                            <h5><a class="home__btn btn" href="#contacto">Contáctame</a></h5>
-
-                         </div>
-                         <div class="container__content">
-                            <img src="" alt="" srcset="">
-                        </div> 
+                        <div class="col-12 col-lg-4 img-fluid d-flex justify-content-lg-center justify-content-end">
+                            <img src="assets/img/webp/portfolio-img (2).png" alt="Imagen 2"
+                                class="img-fluid img-portfolio">
+                        </div>
 
 
 
-                    </div>-->
-                </aside>
+
+                        <div class="col-12 col-lg-4 img-fluid d-flex justify-content-lg-center justify-content-start">
+                            <img src="assets/img/webp/portfolio-img (3).png" alt="Imagen 3"
+                                class="img-fluid img-portfolio">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center text-center p-1 rouded-portfolio">
+                        <div class="col-12  text-center"
+                            style="background-color: #F1F1F1; border-radius: 18px; flex-shrink: 0; height: 50px; ">
+                            <p class="text-black text-center fs-3 m-3">Front-End Developer</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
 
         </section>
 
         <!--ABOUT----------------------------------- -->
-        <section id="acerca" class="section__about max-growth section-pd full-lg-screen">
-            <!-- <h2 class="tittle--left">Resumen profesional /></h2> -->
+        <div id="acerca" class="container-fluid m-0 position-relative" style="overflow-x: hidden; height: 100%;">
+            <img src="assets/img/round-pink.png" width="50%" class="position-absolute top-0 start-100 translate-middle"
+                style="right: 0;">
 
-            <section class="container-fluid pt-1 pt-lg-5">
-                
-                    
+            <img src="assets/img/round-pink-line.png" width="10%" class="position-absolute bottom-0 end-0">
+            <section class="container-fluid pt-5 pb-lg-5 pt-lg-0">
 
-                            <p class="fs-2">Hola, soy</p>
-                            <h1 class="content__titulo h1-desktop" style="--hero-text-color:var(--white-color);">Rosaida
-                                Hernández
+                <div class="row p-0 m-0 ">
+                    <div class="col col-lg-4 m-0 d-none d-sm-block ">
+
+                    </div>
+                    <div class="col col-lg-6  col-sm-12 m-0 ">
+                        <h5 class="display-1fs">Hola, soy </h5>
+
+                    </div>
+                </div>
+                <div class="row m-0 p-0">
+                    <div class="col-lg-4 col-sm-12 m-0 "
+                        style="display: flex; flex-direction: column; justify-content: flex-end">
+                        <img src="assets/img/webp/profile.png" width="600px">
+                    </div>
+
+
+                    <div class="col col-sm-12 col-lg-6 m-0 order-sm-0">
+
+                        <h5 class="pb-5" style="font-size: 40px; margin-left: 0.50rem; font-family: 'Mali', cursive;">Rosaida Hernandez</h5>
+                        <h4 class="mb-3 p-0 d-flex align-items-center "
+                            style="color:rgb(160 166 255); font-weight: 300;  letter-spacing: 2px; margin-left: 0.70rem;">
+                            Sobre mí:
                             </h1>
+                            <p class="fs-5  m-0 pt-lg-0 pt-5 z-3">
+                                Como Fullstack Web Developer con 2 años de experiencia en la industria,
+                                he adquirido las habilidades necesarias para
+                                ayudarte a transformar tu visión de una aplicación web desde la fase
+                                conceptual hasta la realización completa.
+                                Me apasiona especialmente el mundo del Frontend. Mi enfoque constante es
+                                la mejora continua.<br><br>
+                            </p>
 
-                        
-                            <ul class="container__descripcion">
+                            <ul class="container__descripcion pt-lg-5 pb-lg-5">
                                 <li class="descripcion__item">
 
                                     <p class="item__formacion">
                                         <span style="color:rgb(160 166 255);" class="formacion__span"><i
-                                                class="fa-solid fa-user-graduate"></i>
+                                                class="fa-solid fa-user-graduate text-secondary"></i>
                                             [Developer web Full-stack]</span> <br>
                                         <span class="formacion__span--animado">fronted y backend.</span>
                                     </p>
@@ -185,102 +218,20 @@
                                             [Nacionalidad]</span> <br>
                                         <span class="formacion__span--animado">venezolana.</span>
                                     </p>
-
-
                                 </li>
                             </ul>
-                    
-                        <section>
-                            
-                                <div class="row">
-                                    <div class="col d-flex justify-content-center align-items-center">
-                                        <img src="assets/img/webp/profile.png" width="300" alt="profile" srcset="">
-                                    </div>
-
-                                    <div class="col-lg-8 d-flex align-content-center align-items-center row">
-                                        <h4 class="mb-3 p-0 d-flex align-items-center "
-                                            style="color:rgb(160 166 255); font-weight: 300;  letter-spacing: 2px;">
-                                            Sobre mí:
-                                            </h1>
-                                            <p class="fs-5  m-0 pt-lg-0 pt-5">
-                                                Como Fullstack Web Developer con 2 años de experiencia en la industria,
-                                                he adquirido las habilidades necesarias para
-                                                ayudarte a transformar tu visión de una aplicación web desde la fase
-                                                conceptual hasta la realización completa.
-                                                Me apasiona especialmente el mundo del Frontend. Mi enfoque constante es
-                                                la mejora continua.<br>
-                                            </p>
-                                            <p class="fs-5  m-0 pt-lg-0 pt-5">
-                                                Empece mis estudios en colombia <img width="20px"
-                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/800px-Flag_of_Colombia.svg.png?20220810033841"
-                                                    alt="" srcset=""> así mismo como mi primer empleo en el area.<br>
-                                            </p>
-                                    </div>
-                                </div>
-                            
-                        </section>
-
-
-
-                    
-                    <div class="row">
-                        <div class="col-lg-8 mb-lg-5 pb-lg-5">
-                            <img src="assets/img/webp/group2.svg" class="img-fluid">
-                        </div>
-
-                        <div class="col-lg-4 pt-4 pt-lg-5 d-flex " style="justify-content: flex-end;">
-                            <div class="d-flex flex-column justify-content-between">
-
-                                <div class="contact-info align-items-start">
-                                    <p class="fs-4 " style="text-align: right;">
-                                        947 319 207 <i class="fas fa-phone ml-2 text-primary mb-4"></i><br>
-                                        Peru, lima <i class="fas fa-map-marker ml-2 text-success mb-4"></i><br>
-                                        <a class="text-white" target="black_"
-                                            href="https://www.linkedin.com/in/rosaidahz/">/in/rosaidahz</a> <i
-                                            class="fab fa-linkedin ml-2 text-warning mb-4"></i><br>
-                                        rosaidabhz@gmail.com <i class="far fa-envelope ml-2 text-danger mb-4"></i>
-                                    </p>
-                                </div>
-
-
-                                <img src="assets/img/webp/group1.svg" class="img-fluid mx-auto d-block align-items-end"
-                                    style="max-width: 100%;">
-                            </div>
-
-                        </div>
+                            <p class="fs-5  m-0 ">
+                                Empece mis estudios en colombia <img width="20px"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/800px-Flag_of_Colombia.svg.png?20220810033841"
+                                    alt="" srcset=""> así mismo como mi primer empleo en el area.<br>
+                            </p>
                     </div>
-
-
-
-
-                
-
-
-            </section>
-
-
-
-
-
-            <div class="about__container">
-
-                <div class="article__container--texto">
 
                 </div>
 
-
-
-
-            </div>
-
-        </section>
-
-
-
-
-
-        <!-- SKILLS---------------------------------- -->
-        <section id="habilidades" class="section__about max-growth section-pd full-lg-screen">
+            </section>
+        </div>
+        <section id="habilidades" class="container-fluid">
 
             <article class="skills__article skills__article--soft">
                 <div class="skills__container ">
@@ -333,6 +284,168 @@
 
             </article>
         </section>
+       
+
+        <section class="container-fluid px-5  ">
+            <!-- Page title-->
+            <svg class=" mx-lg-5 mt-lg-5 d-block text-warning mb-4" width="40" height="40" viewBox="0 0 40 40"
+                fill="#FFA9C3" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M32.6213 22.7824C26.4943 23.0213 20.6934 24.6146 15.525 27.255L8.87893 31.0927C7.12129 32.1061 4.87665 31.4978 3.86795 29.7493L0.49035 23.9008C-0.520513 22.1491 0.0820047 19.9007 1.83372 18.8898L7.33997 15.7103C7.65881 15.5262 8.06657 15.6354 8.25074 15.9543L12.5774 23.4483C12.7647 23.7727 13.1836 23.8804 13.5051 23.6822C13.816 23.4905 13.9009 23.074 13.7182 22.7577L9.36036 15.2095C9.18727 14.9097 9.27227 14.5269 9.55686 14.3297C14.1026 11.1781 17.9484 7.16404 20.9018 2.48266C22.0206 0.707687 24.6278 0.755188 25.6794 2.57599L34.9289 18.5981C35.9801 20.415 34.7215 22.7007 32.6213 22.7824ZM33.8082 11.6236C34.1506 9.6637 33.0019 7.69797 31.1452 7.02512C30.5616 6.81361 30.0322 7.44872 30.3425 7.98632C31.0812 9.2661 31.8225 10.5503 32.5721 11.8482C32.8853 12.3903 33.7004 12.2404 33.8082 11.6236ZM18.4184 35.2136L15.2546 29.7215C15.0708 29.4024 14.6625 29.2929 14.3434 29.477C12.6288 30.4663 12.564 30.5047 10.2768 31.8249C9.95788 32.009 9.84821 32.417 10.0324 32.736L13.2016 38.2245C13.6078 38.9274 14.3384 39.3096 15.0824 39.3096C15.8041 39.3096 16.0801 39.0654 17.625 38.1737C18.66 37.5762 19.0159 36.2478 18.4184 35.2136ZM38.676 6.55444C38.9948 6.37035 39.1041 5.96259 38.92 5.64375C38.736 5.32499 38.3284 5.21557 38.0093 5.39974L36.2843 6.39569C35.694 6.73653 35.9409 7.63989 36.6183 7.63989C36.8554 7.63981 36.8079 7.63297 38.676 6.55444ZM32.5456 3.09976L32.9663 1.53004C33.0616 1.17437 32.8505 0.808857 32.495 0.713521C32.139 0.618351 31.7737 0.829274 31.6783 1.18495L31.2577 2.75466C31.1444 3.17734 31.4629 3.5941 31.902 3.5941C32.1964 3.59402 32.4658 3.3976 32.5456 3.09976ZM39.9772 13.6731C40.0725 13.3175 39.8613 12.9519 39.5057 12.8566L37.9359 12.436C37.5803 12.3409 37.2148 12.5519 37.1194 12.9075C37.0241 13.2631 37.2353 13.6286 37.5909 13.724C39.3076 14.184 39.2134 14.1675 39.3336 14.1675C39.6279 14.1675 39.8973 13.971 39.9772 13.6731Z">
+                </path>
+            </svg>
+                <h1 class="text-center mt-0" style="font-family: 'Mali', cursive; font-weight: 800; letter-spacing: 21.12px; color: rgb(160 166 255); font-size: 80px;
+                ">Servicios</h1>
+
+            <!-- <p class="text-center pb-4 mb-2 mb-lg-3">We provide a wide range of consulting services</p> -->
+            <!-- Services grid-->
+            <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 pb-sm-3 pb-md-4 pb-xl-5">
+                <!-- Item-->
+                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
+                        >
+                        <div class="card-body pb-0 ">
+                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
+                                    fill="#FF9797" />
+                            </svg>
+                            <h3 class="h4 card-title mt-0">Diseño y Desarrollo de Aplicaciones Web</h3>
+                            <p class="card-text text-black">Creación de sitios web atractivos y funcionales
+                                desde cero
+                                utilizando frameworks como Angular, django.</p>
+                        </div>
+                    </a></div>
+                <!-- Item-->
+                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
+                        >
+                        <div class="card-body pb-0 ">
+                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
+                                    fill="#FF9797" />
+                            </svg>
+                            <h3 class="h4 card-title mt-0">Diseño Responsivo</h3>
+                            <p class="card-text text-black">Asegurarte de que los sitios web se vean y funcionen
+                                bien en
+                                dispositivos de diferentes tamaños, como computadoras de escritorio, tabletas y
+                                teléfonos móviles.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Item-->
+                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
+                        >
+                        <div class="card-body pb-0 ">
+                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
+                                    fill="#FF9797" />
+                            </svg>
+                            <h3 class="h4 card-title mt-0">Mantenimiento y Actualización</h3>
+                            <p class="card-text text-black">Servicios de mantenimiento continuo para garantizar
+                                que los
+                                sitios web estén actualizados, funcionando correctamente y seguros.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Item-->
+                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
+                        >
+                        <div class="card-body pb-0 ">
+                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
+                                    fill="#FF9797" />
+                            </svg>
+                            <h3 class="h4 card-title mt-0">Integración de APIs</h3>
+                            <p class="card-text text-black">Conectar sitios web con servicios externos mediante
+                                el uso
+                                de
+                                APIs para ampliar la funcionalidad.</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Item-->
+                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
+                        >
+                        <div class="card-body pb-0 ">
+                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
+                                    fill="#FF9797" />
+                            </svg>
+                            <h3 class="h4 card-title mt-0">Pruebas y Depuración</h3>
+                            <p class="card-text text-black">Realizar pruebas exhaustivas y depuración de sitios
+                                web para
+                                garantizar que funcionen sin errores.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Item-->
+                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
+                        >
+                        <div class="card-body pb-0 ">
+                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
+                                    fill="#FF9797" />
+                            </svg>
+                            <h3 class="h4 card-title mt-0">Gestión de Proyectos Web</h3>
+                            <p class="card-text text-black">Gestionar proyectos web, incluyendo la
+                                planificación,
+                                coordinación y seguimiento de tareas y recursos.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+
+
+
+
+
+        <!-- <div class="container">
+        <div class="row">
+            <div class="col-lg-9 mb-lg-5 pb-lg-5">
+                <img src="assets/img/webp/group2.svg" class="img-fluid">
+            </div>
+
+            <div class="col-lg-4 pt-4 pt-lg-5 d-flex " style="justify-content: flex-end;">
+                <div class="d-flex flex-column justify-content-between">
+
+                    <div class="contact-info align-items-start">
+                        <p class="fs-4 " style="text-align: right;">
+                            947 319 207 <i class="fas fa-phone ml-2 text-primary mb-4"></i><br>
+                            Peru, lima <i class="fas fa-map-marker ml-2 text-success mb-4"></i><br>
+                            <a class="text-white" target="black_"
+                                href="https://www.linkedin.com/in/rosaidahz/">/in/rosaidahz</a> <i
+                                class="fab fa-linkedin ml-2 text-warning mb-4"></i><br>
+                            rosaidabhz@gmail.com <i class="far fa-envelope ml-2 text-danger mb-4"></i>
+                        </p>
+                    </div>
+
+
+                    <img src="assets/img/webp/group1.svg" class="img-fluid mx-auto d-block align-items-end"
+                        style="max-width: 100%;">
+                </div>
+
+            </div>
+        </div>
+       </div> -->
+
+
+
+
+        <!-- SKILLS---------------------------------- -->
+
         <!-- <article class="skills__article skills__article--hard">
                 <h4 class="skills__subtittle txt-center">HARD SKILLS</h4>
 
@@ -409,7 +522,7 @@
 
         <!-- PROJECTS---------------------------------- -->
 
-        <section id="proyectos" class="section__projects container">
+        <!-- <section id="proyectos" class="section__projects container">
             <div class="container-fluid align-items-end">
                 <div class="title-container ">
 
@@ -442,9 +555,9 @@
 
                 </a>
 
-            </div>
+            </div> -->
             <!-- Ventanas modaleses--proyectos -->
-            <article class="modales" id="proyecto-1">
+            <!-- <article class="modales" id="proyecto-1">
 
                 <div class="modales-content">
                     <a class="modales-close" href="#cerrar">
@@ -462,8 +575,10 @@
                             <h4>AVC IMPORT & MERCHANDISING</h4>
 
                             <p> Este proyecto es un comercio digital construido a partir del framework Angular.
-                                En general, es una tienda virtual que enlaza de forma simple al cliente interesado
-                                en conocer más acerca de los productos via wsp. Estare mostrando una previa hecha en
+                                En general, es una tienda virtual que enlaza de forma simple al cliente
+                                interesado
+                                en conocer más acerca de los productos via wsp. Estare mostrando una previa
+                                hecha en
                                 vanilla.
                             </p>
 
@@ -483,9 +598,9 @@
                         </div>
                     </article>
                 </div>
-            </article>
+            </article> -->
 
-            <article class="modales" id="proyecto-2">
+            <!-- <article class="modales" id="proyecto-2">
                 <div class="modales-content">
                     <a class="modales-close" href="#cerrar">
                         <svg width="24" height="24" viewBox="0 0 24 24">
@@ -497,10 +612,12 @@
                         <img src="assets/img/webp/Pokeapi.png" alt="proyecto-2">
                         <div class="project__modales--info">
                             <h4>PokeAPI</h4>
-                            <p>La base de la pokedex gira entorno al servicio que llama la PokeApi, esta funcion es
+                            <p>La base de la pokedex gira entorno al servicio que llama la PokeApi, esta funcion
+                                es
                                 llamada
                                 a cada uno de los componentes
-                                generados al inicio del proyecto y el TS de cada componente se encarga de llamar los
+                                generados al inicio del proyecto y el TS de cada componente se encarga de llamar
+                                los
                                 datos
                                 requeridos desde la PokeAPI. </p>
                             <aside class="project__detalles">
@@ -530,12 +647,15 @@
 
                         <div class="project__modales--info">
                             <h4>Movie app</h4>
-                            <p>El manejo de base de datos mediante el uso de FastApi nos permite manipular informacion
+                            <p>El manejo de base de datos mediante el uso de FastApi nos permite manipular
+                                informacion
                                 de
-                                tablas mediante el uso de logica de progrmacion orientada a objetos, en esta caso
+                                tablas mediante el uso de logica de progrmacion orientada a objetos, en esta
+                                caso
                                 haciendo
                                 uso
-                                de python, para esto hace manejo de la siguiente estructura Models - Schemas - Services
+                                de python, para esto hace manejo de la siguiente estructura Models - Schemas -
+                                Services
                                 -
                                 Routes</p>
                             <aside class="project__detalles">
@@ -561,11 +681,14 @@
                         <img src="assets/img/webp/2.png" alt="proyecto-4">
                         <div class="project__modales--info">
                             <h4>PokeAPI</h4>
-                            <p>Nuestro objetivo con este proyecto es destacar y dar visibilidad a los Consejos Locales
+                            <p>Nuestro objetivo con este proyecto es destacar y dar visibilidad a los Consejos
+                                Locales
                                 de
-                                Juventud y Curules Especiales, cubriendo la necesidad de crear una serie de micrositios
+                                Juventud y Curules Especiales, cubriendo la necesidad de crear una serie de
+                                micrositios
                                 donde el administrador tenga acceso a crear estos espacios y de esta forma,
-                                ver la información que publique cada Consejo Local de Juventud y Curul Especial de
+                                ver la información que publique cada Consejo Local de Juventud y Curul Especial
+                                de
                                 manera
                                 independiente.</p>
                             <aside class="project__detalles">
@@ -584,152 +707,34 @@
             </article>
 
             </article>
-        </section>
-
-
-        <div class="container-fluid m-0 img-why">
-            <aside class="hero-image__aside--opacity">
-
-            </aside>
-        </div>
-        <div class="container">
-
-        </div>
+        </section> -->
 
 
 
-        <section class="container mt-0 mb-md-3 mb-lg-4 mb-xxl-5">
-            <!-- Page title-->
-            <svg class="d-block text-warning mb-4" width="40" height="40" viewBox="0 0 40 40" fill="#FFA9C3"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M32.6213 22.7824C26.4943 23.0213 20.6934 24.6146 15.525 27.255L8.87893 31.0927C7.12129 32.1061 4.87665 31.4978 3.86795 29.7493L0.49035 23.9008C-0.520513 22.1491 0.0820047 19.9007 1.83372 18.8898L7.33997 15.7103C7.65881 15.5262 8.06657 15.6354 8.25074 15.9543L12.5774 23.4483C12.7647 23.7727 13.1836 23.8804 13.5051 23.6822C13.816 23.4905 13.9009 23.074 13.7182 22.7577L9.36036 15.2095C9.18727 14.9097 9.27227 14.5269 9.55686 14.3297C14.1026 11.1781 17.9484 7.16404 20.9018 2.48266C22.0206 0.707687 24.6278 0.755188 25.6794 2.57599L34.9289 18.5981C35.9801 20.415 34.7215 22.7007 32.6213 22.7824ZM33.8082 11.6236C34.1506 9.6637 33.0019 7.69797 31.1452 7.02512C30.5616 6.81361 30.0322 7.44872 30.3425 7.98632C31.0812 9.2661 31.8225 10.5503 32.5721 11.8482C32.8853 12.3903 33.7004 12.2404 33.8082 11.6236ZM18.4184 35.2136L15.2546 29.7215C15.0708 29.4024 14.6625 29.2929 14.3434 29.477C12.6288 30.4663 12.564 30.5047 10.2768 31.8249C9.95788 32.009 9.84821 32.417 10.0324 32.736L13.2016 38.2245C13.6078 38.9274 14.3384 39.3096 15.0824 39.3096C15.8041 39.3096 16.0801 39.0654 17.625 38.1737C18.66 37.5762 19.0159 36.2478 18.4184 35.2136ZM38.676 6.55444C38.9948 6.37035 39.1041 5.96259 38.92 5.64375C38.736 5.32499 38.3284 5.21557 38.0093 5.39974L36.2843 6.39569C35.694 6.73653 35.9409 7.63989 36.6183 7.63989C36.8554 7.63981 36.8079 7.63297 38.676 6.55444ZM32.5456 3.09976L32.9663 1.53004C33.0616 1.17437 32.8505 0.808857 32.495 0.713521C32.139 0.618351 31.7737 0.829274 31.6783 1.18495L31.2577 2.75466C31.1444 3.17734 31.4629 3.5941 31.902 3.5941C32.1964 3.59402 32.4658 3.3976 32.5456 3.09976ZM39.9772 13.6731C40.0725 13.3175 39.8613 12.9519 39.5057 12.8566L37.9359 12.436C37.5803 12.3409 37.2148 12.5519 37.1194 12.9075C37.0241 13.2631 37.2353 13.6286 37.5909 13.724C39.3076 14.184 39.2134 14.1675 39.3336 14.1675C39.6279 14.1675 39.8973 13.971 39.9772 13.6731Z">
-                </path>
-            </svg>
-            <div class="title-container container-fluid">
-                <h1 class="text-center text-black">Servicios</h1>
-
-            </div>
-            <!-- <p class="text-center pb-4 mb-2 mb-lg-3">We provide a wide range of consulting services</p> -->
-            <!-- Services grid-->
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 pb-sm-3 pb-md-4 pb-xl-5">
-                <!-- Item-->
-                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
-                        href="#">
-                        <div class="card-body pb-0 ">
-                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
-                                    fill="#FF9797" />
-                            </svg>
-                            <h3 class="h4 card-title mt-0">Diseño y Desarrollo de Aplicaciones Web</h3>
-                            <p class="card-text text-black">Creación de sitios web atractivos y funcionales desde cero
-                                utilizando frameworks como Angular, django.</p>
-                        </div>
-                    </a></div>
-                <!-- Item-->
-                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
-                        href="#">
-                        <div class="card-body pb-0 ">
-                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
-                                    fill="#FF9797" />
-                            </svg>
-                            <h3 class="h4 card-title mt-0">Diseño Responsivo</h3>
-                            <p class="card-text text-black">Asegurarte de que los sitios web se vean y funcionen bien en
-                                dispositivos de diferentes tamaños, como computadoras de escritorio, tabletas y
-                                teléfonos móviles.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Item-->
-                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
-                        href="#">
-                        <div class="card-body pb-0 ">
-                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
-                                    fill="#FF9797" />
-                            </svg>
-                            <h3 class="h4 card-title mt-0">Mantenimiento y Actualización</h3>
-                            <p class="card-text text-black">Servicios de mantenimiento continuo para garantizar que los
-                                sitios web estén actualizados, funcionando correctamente y seguros.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Item-->
-                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
-                        href="#">
-                        <div class="card-body pb-0 ">
-                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
-                                    fill="#FF9797" />
-                            </svg>
-                            <h3 class="h4 card-title mt-0">Integración de APIs</h3>
-                            <p class="card-text text-black">Conectar sitios web con servicios externos mediante el uso
-                                de
-                                APIs para ampliar la funcionalidad.</p>
-                        </div>
-                    </a>
-                </div>
-                <!-- Item-->
-                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
-                        href="#">
-                        <div class="card-body pb-0 ">
-                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
-                                    fill="#FF9797" />
-                            </svg>
-                            <h3 class="h4 card-title mt-0">Pruebas y Depuración</h3>
-                            <p class="card-text text-black">Realizar pruebas exhaustivas y depuración de sitios web para
-                                garantizar que funcionen sin errores.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Item-->
-                <div class="col"><a class="card rounded card-hover-primary  border-0 h-100 text-decoration-none"
-                        href="#">
-                        <div class="card-body pb-0 ">
-                            <svg width="30" viewBox="0 0 139 131" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M58.6361 34.5934C58.6361 34.5934 54.5934 29.3907 49.9957 32.8599C45.3981 36.329 50.7884 40.3326 50.7884 40.3326L92.24 80.8167C92.24 80.8167 104.931 90.4894 96.4865 96.686C88.0333 102.874 78.6893 91.0301 78.6893 91.0301L24.3542 37.9478C24.3542 37.9478 10.3092 25.4727 23.6092 15.4407C36.9128 5.42503 49.5447 19.0225 49.5447 19.0225L110.602 78.6677C110.602 78.6677 133.347 97.9571 113.154 113.173C92.9615 128.389 73.8483 106.362 73.8483 106.362L27.4793 61.0787C27.4793 61.0787 23.1947 56.066 18.8395 59.3371C14.488 62.6246 19.7384 66.9093 19.7384 66.9093L72.9305 118.871C72.9305 118.871 95.0645 138.617 120.092 119.75C145.133 100.883 125.168 79.4911 125.168 79.4911L52.051 8.07407C52.051 8.07407 35.8305 -6.31719 16.3524 8.3561C-3.12567 23.0294 11.4142 38.6911 11.4142 38.6911L74.312 100.142C74.312 100.142 87.242 115.677 103.553 103.376C119.882 91.0756 103.33 78.2708 103.33 78.2708L58.6361 34.5934Z"
-                                    fill="#FF9797" />
-                            </svg>
-                            <h3 class="h4 card-title mt-0">Gestión de Proyectos Web</h3>
-                            <p class="card-text text-black">Gestionar proyectos web, incluyendo la planificación,
-                                coordinación y seguimiento de tareas y recursos.</p>
-                        </div>
-                    </a>
-                </div>
-        </section>
         <!--CONTACT---------------------------------- -->
-        <section id="contacto" class="container-fluid contacto" style="background-image: url(assets/img/webp/group6.svg); background-repeat: no-repeat; background-size: cover; padding-bottom: 50px;">
+        <section id="contacto" class="container-fluid contacto"
+            >
 
 
             <div class="container">
-
+                <h1 class="text-center mt-0" style="font-family: 'Mali', cursive; font-weight: 800; letter-spacing: 21.12px; color: rgb(160 166 255); font-size: 80px;
+                ">Contactame</h1>
                 <!-- Cards -->
                 <article class="contact__cards">
                     <aside class="contact__card">
                         <svg width="37" height="28" viewBox="0 0 37 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M18.5 7.3125L7 16.8125V27C7 27.5625 7.4375 28 8 28H15C15.5 28 15.9375 27.5625 15.9375 27V21C15.9375 20.5 16.4375 20 16.9375 20H20.9375C21.5 20 21.9375 20.5 21.9375 21V27C21.9375 27.5625 22.4375 28 22.9375 28H30C30.5 28 31 27.5625 31 27V16.75L19.4375 7.3125C19.3125 7.1875 19.125 7.125 19 7.125C18.8125 7.125 18.625 7.1875 18.5 7.3125ZM36.6875 13.75L31.5 9.4375V0.8125C31.5 0.375 31.125 0.0625 30.75 0.0625H27.25C26.8125 0.0625 26.5 0.375 26.5 0.8125V5.3125L20.875 0.6875C20.375 0.3125 19.6875 0.0625 19 0.0625C18.25 0.0625 17.5625 0.3125 17.0625 0.6875L1.25 13.75C1.0625 13.875 0.9375 14.125 0.9375 14.3125C0.9375 14.5 1.0625 14.6875 1.125 14.8125L2.75 16.75C2.875 16.9375 3.0625 17 3.3125 17C3.5 17 3.6875 16.9375 3.8125 16.8125L18.5 4.75C18.625 4.625 18.8125 4.5625 19 4.5625C19.125 4.5625 19.3125 4.625 19.4375 4.75L34.125 16.8125C34.25 16.9375 34.4375 17 34.625 17C34.875 17 35.0625 16.9375 35.1875 16.75L36.8125 14.8125C36.9375 14.6875 37 14.5 37 14.3125C37 14.125 36.875 13.875 36.6875 13.75Z"
-                                fill="fa9cc6" />
+                                fill="#FF9797" />
                         </svg>
                         <h5>Ubicacion</h5>
-                        <small><a class="white-text" >Lima - Peru</a></small>
+                        <small><a class="black-text">Lima - Peru</a></small>
                     </aside>
                     <aside class="contact__card">
                         <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M31.8125 1.5625L25.3125 0.0625C24.625 -0.125 23.875 0.25 23.5625 0.9375L20.5625 7.9375C20.3125 8.5625 20.5 9.25 21 9.6875L24.8125 12.8125C22.5625 17.5625 18.625 21.5625 13.75 23.875L10.625 20.0625C10.1875 19.5625 9.5 19.375 8.875 19.625L1.875 22.625C1.1875 22.9375 0.875 23.6875 1 24.375L2.5 30.875C2.6875 31.5625 3.25 32 4 32C20 32 33 19.0625 33 3C33 2.3125 32.5 1.75 31.8125 1.5625Z"
-                                fill="fa9cc6" />
+                                fill="#FF9797" />
                         </svg>
                         <h5> TELÉFONO</h5>
                         <small><a class="-text" href="tel:3493415839">947 319 207
@@ -739,14 +744,15 @@
                         <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M31.375 7.9375C29.9375 9.0625 28.125 10.4375 21.75 15.0625C20.5 16 18.1875 18.0625 16 18.0625C13.75 18.0625 11.5 16 10.1875 15.0625C3.8125 10.4375 2 9.0625 0.5625 7.9375C0.3125 7.75 0 7.9375 0 8.25V21C0 22.6875 1.3125 24 3 24H29C30.625 24 32 22.6875 32 21V8.25C32 7.9375 31.625 7.75 31.375 7.9375ZM16 16C17.4375 16.0625 19.5 14.1875 20.5625 13.4375C28.875 7.4375 29.5 6.875 31.375 5.375C31.75 5.125 32 4.6875 32 4.1875V3C32 1.375 30.625 0 29 0H3C1.3125 0 0 1.375 0 3V4.1875C0 4.6875 0.1875 5.125 0.5625 5.375C2.4375 6.875 3.0625 7.4375 11.375 13.4375C12.4375 14.1875 14.5 16.0625 16 16Z"
-                                fill="fa9cc6" />
+                                fill="#FF9797" />
                         </svg>
                         <h5>EMAIL</h5>
-                        <small> <a class="white-text" href="mailto:rosaidabhz@gmail.com">rosaidabhz@gmail.com</a></small>
+                        <small> <a class="black-text"
+                                href="mailto:rosaidabhz@gmail.com">rosaidabhz@gmail.com</a></small>
                     </aside>
                     <aside class="contact__card">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                            <path
+                            <path fill="#FF9797"
                                 d="M16.018,3.815L15.232,8h-4.966l0.716-3.815L9.018,3.815L8.232,8H4v2h3.857l-0.751,4H3v2h3.731l-0.714,3.805l1.965,0.369 L8.766,16h4.966l-0.714,3.805l1.965,0.369L15.766,16H20v-2h-3.859l0.751-4H21V8h-3.733l0.716-3.815L16.018,3.815z M14.106,14H9.141 l0.751-4h4.966L14.106,14z" />
                         </svg>
                         <h5>SOCIAL MEDIA</h5>
@@ -765,7 +771,7 @@
                             <a href="https://www.instagram.com/rosibrig/" target="_blank" rel="noopener"><svg
                                     xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                                     viewBox="0 0 30 30">
-                                    <path
+                                    <path 
                                         d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z">
                                     </path>
                                 </svg></a>
@@ -816,7 +822,7 @@
     </main>
 
     <footer class="page-footer">
-        <div class="container white-text center">
+        <div class="container black-text center">
             Hecho por <strong>rosaidabhz</strong> | All Rights Reserved
         </div>
         <br>
