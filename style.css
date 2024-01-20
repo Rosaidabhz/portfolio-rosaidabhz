@@ -1,8 +1,8 @@
 /* PROPIEDADES PERSONALIZADAS */
 :root {
     --first-color: rgb(38, 166, 154);
-    --first-alpha-color:#819CFF;
-    --body-color: #000000;
+    --first-alpha-color:#ea445a;
+    --body-color: #bebebe;
 
     --second-color: rgba(20, 25, 45, 1);
     --second-alpha-color: rgba(20, 25, 45, 0.75);
@@ -11,12 +11,12 @@
     --third-alpha-color: rgba(80, 20, 100, 0.75);
 
     --black-color: rgb(0, 0, 0);
-    --gray-color: rgb(136, 136, 136);
+    --gray-color: rgba(136, 136, 136, 0.993);
     --gray-dark-color: rgb(54, 54, 54);
     --gray-light-color: rgb(65, 65, 65);
     --white-color: rgb(0, 0, 0);
 
-    --purple-color: rgb(255, 167, 215);
+    --purple-color:#ea445a;
     --purple-light-color: rgb(0, 0, 0);
 
     --link-color: rgba(80, 158, 227, 1);
@@ -34,6 +34,9 @@
     --header-hegih-desktop: 6rem;
 }
 
+.grey.darken-4 {
+    background-color: #bebebe !important;
+}
 
 
 /* RESETEOS DEL DOCUMENTO------------------------ */
@@ -386,7 +389,7 @@ img {
 
     .descripcion__item {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content:left;
     }
 
     .item__formacion {
@@ -907,13 +910,8 @@ img {
 
 /* -------------------------------------------SKILLS */
 /* Estilos base para todos los tamaños de pantalla */
-.skills__container {
-    padding: 1rem 1rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 2rem;
-    justify-items: center;
-}
+
+
 
 /* Estilos para pantallas más grandes, como computadoras y tablets */
 @media (min-width: 768px) {
@@ -936,12 +934,17 @@ img {
 @media (max-width: 768px) {
     .skills__container {
         grid-template-columns: repeat(2, 1fr);
-        /* Dos columnas en una fila en pantallas pequeñas */
         grid-template-rows: auto;
-        /* Deja que las filas se ajusten automáticamente al contenido */
     }
 }
+.skills__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
 
+}
 
 .skill__item {
     padding: 1rem;
@@ -991,9 +994,12 @@ img {
 }
 
 .page-footer {
-    background-color: #819CFF !important;
+    background-color: #b4b4b4 !important;
 }
 
+.letra{
+    color: #ea445a !important;
+}
 
 @media (max-width: 768px) {
     .contacto {
